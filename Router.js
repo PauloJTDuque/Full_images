@@ -10,7 +10,7 @@ export function Router() {
             <Stack.Navigator >
                 <Stack.Screen name = "Home" component = {Home} options={{
                         title: ' Full-Image ',
-                        // headerTransparent: true,
+                        headerTransparent: true,
                         headerShadowVisible: false,
                     }}/> 
             </Stack.Navigator>
